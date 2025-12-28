@@ -149,5 +149,20 @@ git commit -am "docs: update README with setup + deployment"
 
 - Tables are created automatically on startup for a smoother demo.
 - For production, prefer Sequelize migrations.
+
+## Live Demo
+Frontend: https://anosass.github.io/anas-barbershop/
+Backend: https://anas-barbershop-backend.onrender.com
+
+## Admin Credentials
+Email: 22230528@students.liu.edu.lb
+Password: anas123
+
 ## Setup Instructions
+1. Clone repository
+2. Install backend dependencies
+3. Configure .env
+4. Run backend
+5. Run frontend
+
 
