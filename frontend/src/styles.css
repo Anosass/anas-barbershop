@@ -1,0 +1,97 @@
+:root {
+  --ab-bg: #0f0f10;
+  --ab-card: #161618;
+  --ab-border: rgba(255, 255, 255, 0.10);
+  --ab-text: #ffffff;
+  --ab-muted: rgba(255, 255, 255, 0.65);
+  --ab-accent: #b00020; /* deep red accent */
+  --ab-accent-2: #e11d48;
+}
+
+body {
+  background: var(--ab-bg);
+  color: var(--ab-text);
+}
+
+.ab-navbar {
+  background: rgba(0,0,0,0.65);
+  border-bottom: 1px solid var(--ab-border);
+  backdrop-filter: blur(8px);
+}
+
+.ab-brand {
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.ab-brand-sub {
+  color: var(--ab-muted);
+}
+
+.ab-card {
+  background: var(--ab-card);
+  border: 1px solid var(--ab-border);
+}
+
+.ab-hero {
+  background: linear-gradient(135deg, rgba(176, 0, 32, 0.30), rgba(0, 0, 0, 0.80));
+  border: 1px solid var(--ab-border);
+}
+
+.ab-input {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--ab-border);
+  color: var(--ab-text);
+}
+
+.ab-input:focus {
+  background: rgba(255,255,255,0.08);
+  color: var(--ab-text);
+  border-color: rgba(225, 29, 72, 0.6);
+  box-shadow: 0 0 0 0.2rem rgba(225, 29, 72, 0.15);
+}
+
+.ab-btn {
+  background: var(--ab-accent);
+  border: 1px solid rgba(255,255,255,0.10);
+  color: white;
+}
+
+.ab-btn:hover {
+  background: var(--ab-accent-2);
+  color: white;
+}
+
+.ab-btn-outline {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.20);
+  color: white;
+}
+
+.ab-btn-outline:hover {
+  border-color: rgba(225, 29, 72, 0.60);
+  color: white;
+}
+
+.ab-link {
+  color: rgba(225, 29, 72, 0.95);
+  text-decoration: none;
+}
+
+.ab-link:hover {
+  text-decoration: underline;
+}
+
+.ab-stat {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--ab-border);
+}
+
+.ab-email {
+  background: rgba(0,0,0,0.35);
+  border: 1px solid var(--ab-border);
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: var(--ab-muted);
+}

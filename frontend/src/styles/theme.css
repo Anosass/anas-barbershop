@@ -1,0 +1,194 @@
+:root {
+  --barber-blue: #0a2342;
+  --barber-blue-light: #102b54;
+  --barber-red: #d7263d;
+  --barber-white: #ffffff;
+  --barber-dark-bg: #050914;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+  background-color: var(--barber-dark-bg);
+  color: var(--barber-white);
+}
+
+.bg-barber-dark {
+  background-color: var(--barber-dark-bg);
+}
+
+.bg-barber-blue {
+  background-color: var(--barber-blue);
+}
+
+.bg-barber-blue-light {
+  background-color: var(--barber-blue-light);
+}
+
+.bg-barber-red {
+  background-color: var(--barber-red);
+}
+
+.text-barber-red {
+  color: var(--barber-red);
+}
+
+.text-barber-blue {
+  color: var(--barber-blue);
+}
+
+.text-light-75 {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-barber-primary {
+  background-color: var(--barber-red);
+  border-color: var(--barber-red);
+  color: var(--barber-white);
+}
+
+.btn-barber-primary:hover,
+.btn-barber-primary:focus {
+  background-color: #b71f32;
+  border-color: #b71f32;
+  color: var(--barber-white);
+}
+
+.border-barber-light {
+  border-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.footer-barber {
+  background: linear-gradient(
+    90deg,
+    var(--barber-blue),
+    var(--barber-blue-light)
+  );
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--barber-red);
+}
+
+.border-barber {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Hero */
+
+.hero-section {
+  background: radial-gradient(
+      circle at top left,
+      rgba(215, 38, 61, 0.25),
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(10, 35, 66, 0.9),
+      var(--barber-dark-bg)
+    );
+}
+
+.hero-image-wrapper {
+  position: relative;
+  max-width: 460px;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.hero-image {
+  transition: transform 0.4s ease;
+}
+
+.hero-image-wrapper:hover .hero-image {
+  transform: scale(1.03);
+}
+
+.hero-badge {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Brand barber pole */
+
+.brand-pole {
+  display: inline-block;
+  width: 18px;
+  height: 28px;
+  border-radius: 999px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--barber-red),
+    var(--barber-red) 4px,
+    var(--barber-white) 4px,
+    var(--barber-white) 8px,
+    var(--barber-blue) 8px,
+    var(--barber-blue) 12px
+  );
+}
+
+/* Service cards */
+
+.service-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  border: none;
+}
+
+.service-image-wrapper {
+  overflow: hidden;
+}
+
+.service-image {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.service-card:hover .service-image {
+  transform: scale(1.05);
+}
+
+/* Schedule */
+
+.schedule-card table {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+/* Footer */
+
+.footer-barber hr {
+  border-top-width: 1px;
+}
+
+/* Utility */
+
+.py-lg-6 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    text-align: center;
+  }
+
+  .hero-badge {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
