@@ -149,4 +149,5 @@ git commit -am "docs: update README with setup + deployment"
 
 - Tables are created automatically on startup for a smoother demo.
 - For production, prefer Sequelize migrations.
+## Setup Instructions
 
