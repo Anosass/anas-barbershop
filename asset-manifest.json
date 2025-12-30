@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/anas-barbershop/static/css/main.b3e5800e.css",
-    "main.js": "/anas-barbershop/static/js/main.f465409a.js",
+    "main.js": "/anas-barbershop/static/js/main.2e86a7e5.js",
     "index.html": "/anas-barbershop/index.html",
     "main.b3e5800e.css.map": "/anas-barbershop/static/css/main.b3e5800e.css.map",
-    "main.f465409a.js.map": "/anas-barbershop/static/js/main.f465409a.js.map"
+    "main.2e86a7e5.js.map": "/anas-barbershop/static/js/main.2e86a7e5.js.map"
   },
   "entrypoints": [
     "static/css/main.b3e5800e.css",
-    "static/js/main.f465409a.js"
+    "static/js/main.2e86a7e5.js"
   ]
 }
